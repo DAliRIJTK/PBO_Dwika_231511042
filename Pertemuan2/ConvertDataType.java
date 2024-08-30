@@ -1,6 +1,5 @@
 public class ConvertDataType {
-    
-    // Metode static yang mengonversi long ke short
+
     static short methodOne(long l) {
         // Mengonversi long l menjadi int
         int i = (int) l;
@@ -9,7 +8,7 @@ public class ConvertDataType {
     }
     
     public static void main(String[] args) {
-        // Mendeklarasikan variabel d dengan tipe double dan memberikan nilai 10.25
+        // Mendeklarasikan variabel d dengan tipe double
         double d = 10.25;
 
         // Mengonversi double d menjadi float
@@ -19,7 +18,7 @@ public class ConvertDataType {
         // dan akhirnya mengonversi short menjadi byte
         byte b = (byte) methodOne((long) f);
 
-        // Menampilkan nilai byte b setelah semua konversi
+        // Menampilkan nilai byte b
         System.out.println(b); 
     }
 }

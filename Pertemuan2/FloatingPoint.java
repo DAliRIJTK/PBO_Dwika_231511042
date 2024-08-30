@@ -1,10 +1,10 @@
 public class FloatingPoint {
     public static void main(String[] args) {
-        // Mendeklarasikan variabel x dengan tipe double dan memberikan nilai 92.4
+        // Mendeklarasikan variabel x dengan tipe double
         double x = 92.4;
         
         // Membulatkan nilai x menggunakan Math.round(x) yang mengembalikan nilai long
-        // Melakukan casting dari long ke int dan menyimpan hasilnya dalam variabel nx
+        // Merubah dari long ke int dan menyimpan hasilnya dalam variabel nx
         int nx = (int) Math.round(x);
 
         // Menampilkan nilai x sebelum dibulatkan

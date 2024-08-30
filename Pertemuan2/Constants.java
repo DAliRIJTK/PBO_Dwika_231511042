@@ -1,17 +1,16 @@
 public class Constants {
     public static void main(String[] args) {
 
-        // Mendeklarasikan konstanta CM_PER_INCH dengan nilai 2.5
+        // Mendeklarasikan konstanta CM_PER_INCH
         final double CM_PER_INCH = 2.5;
 
-        // Mendeklarasikan variabel paperWidth dan memberikan nilai 10
+        // Mendeklarasikan variabel paperWidth
         double paperWidth = 10;
 
-        // Mendeklarasikan variabel paperHeight dan memberikan nilai 20
+        // Mendeklarasikan variabel paperHeight
         double paperHeight = 20;
 
-        // Mencetak ukuran kertas dalam sentimeter dengan mengalikan paperWidth dan paperHeight
-        // dengan nilai konstanta CM_PER_INCH dari kelas Constants2
+    
         System.out.println("Paper size in centimeters: " +
             paperWidth * Constants2.CM_PER_INCH +  // Menghitung lebar kertas dalam sentimeter
             " by " + 

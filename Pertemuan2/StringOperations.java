@@ -6,9 +6,11 @@ public class StringOperations {
         Scanner scanner = new Scanner(System.in);
         
         // Membaca input string pertama dari pengguna dan menyimpannya dalam variabel A
+        System.out.print("Masukkan Kata1 : ");
         String A = scanner.nextLine();
         
         // Membaca input string kedua dari pengguna dan menyimpannya dalam variabel B
+        System.out.print("Masukkan Kata2 : ");
         String B = scanner.nextLine();
         
         // Menghitung total panjang gabungan dari string A dan B
